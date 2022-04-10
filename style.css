@@ -10,11 +10,33 @@
     --quote-section-bg: #e5e7eb;
 }
 
+/* border for testing purposes
+border: red 1px solid;
+*/
+
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 .header-container {
+    background-color: var(--dark-blue-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: red 1px solid; */
+}
 
+.header-container h1 {
+    color: var(--primary-text-white);
+}
+
+.header-container nav {
+    color: var(--secondary-text-white);
+}
+
+.header-container nav ul {
+    list-style-type: none;
+    display: flex;
 }
