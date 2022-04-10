@@ -30,6 +30,7 @@ body {
 
 .header-container h1 {
     color: var(--primary-text-white);
+    font-size: 24px;
 }
 
 .header-container nav {
@@ -39,4 +40,10 @@ body {
 .header-container nav ul {
     list-style-type: none;
     display: flex;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.header-container nav ul li {
+    padding: 0 16px;
 }
