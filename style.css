@@ -65,8 +65,8 @@ body {
     display: flex;
     background-color: var(--dark-blue-bg);
     align-items: flex-start;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .hero-text-container {
@@ -118,7 +118,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .card-header-container {
@@ -152,4 +153,25 @@ body {
 .card-container p {
     width: 70%;
     text-align: center;
+}
+
+/*Quote Section*/
+
+.quote-container {
+    background-color: var(--quote-section-bg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: var(--dark-text);
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
 }
