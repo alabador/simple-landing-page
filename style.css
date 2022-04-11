@@ -90,6 +90,20 @@ body {
     font-weight: 300;
 }
 
+.hero-signup {
+    border-style: none;
+    background-color: var(--button-color);
+    font-family: inherit;
+    color: var(--primary-text-white);
+    height: 2em;
+    font-size: 18px;
+    font-weight: 700;
+    /*used to make button width the resize to text length responsively*/
+    align-self: flex-start;
+    padding: 0 24px;
+    border-radius: 8px;
+}
+
 .hero-image-container {
     height: 100%;
     padding-left: 50px;
