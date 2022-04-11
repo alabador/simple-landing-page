@@ -62,14 +62,21 @@ body {
 .hero-container {
     display: flex;
     background-color: var(--dark-blue-bg);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-text-container {
+
 }
 
 .hero-title {
     color: var(--primary-text-white);
     font-size: 48px;
     font-weight: 700;
+    margin: 0;
 }
 
 .hero-text {
@@ -78,8 +85,12 @@ body {
     font-weight: 300;
 }
 
+.hero-image-container {
+    
+}
 
 .hero-image {
-    width: 400px;
+    width: 100%;
 }
+
 
