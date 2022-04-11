@@ -20,13 +20,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.center-padding {
+    padding: 0 15vw;
+}
+
 /*header styles*/
 
 .header-container {
     background-color: var(--dark-blue-bg);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header-container h1 {
@@ -36,6 +40,7 @@ body {
 
 .header-container nav {
     color: var(--secondary-text-white);
+
 }
 
 .header-container nav ul {
@@ -49,8 +54,32 @@ body {
     padding: 0 16px;
 }
 
+.header-container nav ul li:last-child {
+    padding-right: 0px;
+}
+
 /*hero styles*/
 .hero-container {
     display: flex;
     background-color: var(--dark-blue-bg);
+    justify-content: space-around;
+    align-items: flex-start;
 }
+
+.hero-title {
+    color: var(--primary-text-white);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-text {
+    color: var(--secondary-text-white);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.hero-image {
+    width: 400px;
+}
+
