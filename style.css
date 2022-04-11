@@ -20,12 +20,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*header styles*/
+
 .header-container {
     background-color: var(--dark-blue-bg);
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* border: red 1px solid; */
 }
 
 .header-container h1 {
@@ -46,4 +47,10 @@ body {
 
 .header-container nav ul li {
     padding: 0 16px;
+}
+
+/*hero styles*/
+.hero-container {
+    display: flex;
+    background-color: var(--dark-blue-bg);
 }
