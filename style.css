@@ -97,7 +97,7 @@ body {
     color: var(--primary-text-white);
     height: 2em;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     /*used to make button width the resize to text length responsively*/
     align-self: flex-start;
     padding: 0 24px;
@@ -111,5 +111,7 @@ body {
 .hero-image {
     width: 100%;
 }
+
+/*card styles*/
 
 
