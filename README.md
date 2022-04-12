@@ -2,28 +2,16 @@
 
 In this project I will be creating a landing page from a design provided by The Odin Project.
 
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 ## Overview
 
 ### Screenshots
 
-![Image Placeholder](/images/placeholder.png)
+![Landing Page](/images/landingpage.png)
 
 ### Links
 
-- Solution URL: [https://github.com/alabador/interactive-rating-component](https://github.com/alabador/interactive-rating-component)
-- Live Site URL: [https://alabador.github.io/interactive-rating-component/](https://alabador.github.io/interactive-rating-component/)
+- Solution URL: [https://github.com/alabador/simple-landing-page](https://github.com/alabador/simple-landing-page)
+- Live Site URL: [https://alabador.github.io/simple-landing-page/](https://alabador.github.io/simple-landing-page/)
 
 ## My process
 
@@ -34,14 +22,5 @@ In this project I will be creating a landing page from a design provided by The 
 - Flexbox
 
 
-### Continued development
-
-
-
 ### Useful resources
-
-
-## Author
-
-
-## Acknowledgments
+[CSS Tricks - Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
