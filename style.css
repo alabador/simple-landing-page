@@ -78,7 +78,7 @@ body {
 .hero-text-container {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    /* width: 50vw; */
     justify-content: space-between;
     padding-right: 50px;
 }
@@ -118,12 +118,12 @@ body {
     transition: all 100ms ease-in-out;
 }
 
-.hero-image-container {
+/* .hero-image-container {
     width: 50vw;
-}
+} */
 
 .hero-image {
-    width: 100%;
+    height: 400px;
 }
 
 /*card styles*/
