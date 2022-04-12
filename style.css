@@ -229,11 +229,11 @@ body {
     align-items: center;
     border-radius: 12px;
     flex-wrap: wrap;
-    padding: -3em;
+    padding: -3em 2em;
 }
 
 .cta-text-container {
-    margin: 2em 0;
+    margin: 2em 1.5em;
 }
 
 .cta-text-container p {
@@ -257,7 +257,7 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
     cursor: pointer;
-    margin: 3em;
+    margin: 2em;
 }
 
 /*Footer Section*/
