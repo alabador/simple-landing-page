@@ -54,6 +54,12 @@ body {
 
 .header-container nav ul li {
     padding: 0 16px;
+    cursor: pointer;
+}
+
+.header-container nav ul li:hover {
+    color: var(--button-color);
+    transition: all 200ms ease-in;
 }
 
 .header-container nav ul li:last-child {
@@ -96,13 +102,20 @@ body {
     background-color: var(--button-color);
     font-family: inherit;
     color: var(--primary-text-white);
-    height: 2em;
+    /* height: 2em; */
     font-size: 18px;
     font-weight: 600;
     /*used to make button width the resize to text length responsively*/
     align-self: flex-start;
-    padding: 0 24px;
+    padding: 12px 28px;
     border-radius: 8px;
+}
+
+.hero-signup:hover {
+    background-color: #4c8ef7;
+    padding: 14px 30px;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
 }
 
 .hero-image-container {
@@ -233,6 +246,7 @@ body {
     color: var(--primary-text-white);
     padding: 12px 24px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 /*Footer Section*/
