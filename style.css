@@ -201,3 +201,12 @@ body {
     font-size: 24px;
     font-weight: 700;
 }
+
+.cta-button {
+    border-style: none;
+    background: none;
+    border: 2px solid var(--primary-text-white);
+    color: var(--primary-text-white);
+    padding: 12px 24px;
+    border-radius: 8px;
+}
