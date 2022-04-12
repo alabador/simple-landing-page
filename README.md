@@ -20,6 +20,7 @@ In this project I will be creating a landing page from a design provided by The 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Media Queries
 
 
 ### Useful resources
