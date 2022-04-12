@@ -225,10 +225,15 @@ body {
     background-color: var(--button-color);
     display: flex;
     margin: 100px 0;
-    padding: 4em 0;
     justify-content: space-around;
     align-items: center;
     border-radius: 12px;
+    flex-wrap: wrap;
+    padding: -3em;
+}
+
+.cta-text-container {
+    margin: 2em 0;
 }
 
 .cta-text-container p {
@@ -252,6 +257,7 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
     cursor: pointer;
+    margin: 3em;
 }
 
 /*Footer Section*/
